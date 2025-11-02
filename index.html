@@ -1,33 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreggoVeda</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PreggoVeda — Natural Fertility & Ayurveda</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- Header Navigation -->
-    <nav class="navbar">
-        <div class="logo">PreggoVeda</div>
-        <ul class="nav-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#" class="book-btn">Book Consultation</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-text">
-            <h1>Nurturing Fertility, Naturally</h1>
-            <p>Holistic Ayurveda care for conception, pregnancy & beyond</p>
-            <a href="#" class="cta">Book Consultation</a>
+  <!-- ✅ Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo-mark">🌿</div>
+        <div class="brand-text">
+          <div class="brand-name">PreggoVeda</div>
+          <div class="brand-sub">Ayurvedic Fertility & Wellness</div>
         </div>
-    </header>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a class="btn small primary" href="#contact">Book Consultation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ✅ HERO -->
+  <header class="hero">
+    <img src="hero.jpg" alt="Fertility care" class="hero-bg" />
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <h1 class="hero-title">Nurturing Fertility, Naturally</h1>
+      <p class="hero-sub">Holistic Ayurvedic care for conception, pregnancy & beyond</p>
+
+      <a class="btn primary large" href="#contact">Book Consultation</a>
+    </div>
+  </header>
+
+  <!-- ✅ ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>Supporting couples in their parenthood journey with Ayurvedic healing, personalised diet, detox, and lifestyle protocols that strengthen reproductive wellness.</p>
+    </div>
+  </section>
+
+  <!-- ✅ SERVICES -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>Our Specializations</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Fertility Programs</h3>
+          <p>Customized Ayurvedic therapies to improve egg/sperm health and hormonal balance.</p>
+        </article>
+
+        <article class="card">
+          <h3>Postpartum Care</h3>
+          <p>Strengthening mothers physically & mentally for a smoother recovery phase.</p>
+        </article>
+
+        <article class="card">
+          <h3>Men’s Health</h3>
+          <p>Sperm health, vitality, and stress reduction through herbal support and nutrition.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Book Appointment</h2>
+      <p>Connect on WhatsApp for consultation slots or queries.</p>
+
+      <div class="contact-actions">
+        <a class="btn primary" target="_blank" href="https://wa.me/91XXXXXXXXXX">WhatsApp Us</a>
+        <a class="btn outline" href="mailto:preggoveda@gmail.com">Email</a>
+      </div>
+
+      <p class="info-note">Calendly integration & digital product store coming soon.</p>
+    </div>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> PreggoVeda — Ayurvedic Wellness Clinic</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
-
