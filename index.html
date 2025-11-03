@@ -1,91 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preg-Go-Veda | Nurturing Every Step</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Preg Go Veda — Ayurvedic Fertility & Wellness</title>
+  <meta name="description" content="Preg Go Veda — Natural fertility care through Ayurveda. Consultations, programs, postpartum care, educational articles and digital resources.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- ✅ HEADER WITH NAVIGATION & LOGO -->
-    <nav class="navbar">
-        <div class="logo">
-    <span class="leaf-logo">🌿 Preg-Go-Veda</span>
-</div>
-
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#guidance">Guidance</a></li>
-            <li><a href="#tips">Tips</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- HERO -->
-    <header class="hero-section">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1>Nurturing Every Step</h1>
-            <p>Your Trusted Guide to a Healthy & Happy Pregnancy</p>
-            <a href="#guidance" class="cta-btn">Get Guidance</a>
+  <!-- NAV -->
+  <header class="site-header">
+    <nav class="nav" role="navigation" aria-label="Main">
+      <div class="container nav-inner">
+        <div class="brand">
+          <div class="logo-mark" aria-hidden="true">🌿</div>
+          <div class="brand-text">
+            <div class="brand-name">Preg Go Veda</div>
+            <div class="brand-sub">Ayurvedic Fertility & Wellness</div>
+          </div>
         </div>
-    </header>
+
+        <ul class="nav-links" role="menubar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact" class="cta">Book Consultation</a></li>
+        </ul>
+
+        <!-- mobile hamburger -->
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="2" rx="1" fill="#26423A"/><rect y="6" width="22" height="2" rx="1" fill="#26423A"/><rect y="12" width="22" height="2" rx="1" fill="#26423A"/></svg>
+        </button>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mobile-menu" aria-hidden="true">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact" class="cta">Book Consultation</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero" role="region" aria-label="Hero">
+      <img src="hero.jpg" alt="Ayurveda therapy" class="hero-bg" />
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-inner">
+        <h1 class="hero-title">Nurturing Fertility, Naturally</h1>
+        <p class="hero-lead">Integrating Ayurveda and modern science for conscious conception.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Book Consultation</a>
+          <a class="btn btn-outline" href="#blog">Read Our Articles</a>
+        </div>
+
+        <div class="hero-quick">
+          <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="quick-link">Chat on WhatsApp</a>
+          <a href="#shop" class="quick-link">Free Guide</a>
+        </div>
+      </div>
+    </section>
 
     <!-- ABOUT -->
-    <section class="about-section" id="about">
-        <h2>About the Journey</h2>
-        <p>
-            Pregnancy is a beautiful chapter filled with emotions, excitement, and transformation.
-            Preg-Go-Veda is here to support every mother with natural, safe, and science-based guidance.
-        </p>
-    </section>
-
-    <!-- WEEKLY GUIDANCE -->
-    <section class="guidance-section" id="guidance">
-        <h2>Weekly Pregnancy Guidance</h2>
-        <div class="week-cards">
-            <div class="card">
-                <h3>Trimester 1</h3>
-                <p>Nutrition & emotional balance for early growth.</p>
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="split">
+          <div class="text">
+            <h2>Meet Dr. Rathna</h2>
+            <p class="lead">Dr. Rathna is a certified Ayurvedic physician specializing in fertility, women's health and postpartum recovery. She combines classical Ayurvedic wisdom with modern clinical insight to guide couples toward natural conception.</p>
+            <p><strong>Our mission:</strong> Help couples achieve natural fertility through personalised Ayurvedic care — diet, herbal support, detox and lifestyle medicine.</p>
+            <a class="btn btn-outline" href="#services">View Services</a>
+          </div>
+          <div class="media">
+            <div class="card-photo"> <!-- placeholder; you can replace with an actual doctor photo -->
+              <img src="https://via.placeholder.com/640x460?text=Dr.+Rathna" alt="Dr Rathna">
             </div>
-            <div class="card">
-                <h3>Trimester 2</h3>
-                <p>Baby development milestones & safe exercise.</p>
-            </div>
-            <div class="card">
-                <h3>Trimester 3</h3>
-                <p>Prepare your body and mind for childbirth.</p>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- TIPS -->
-    <section class="tips-section" id="tips">
-        <h2>Daily Wellness Tips</h2>
-        <ul>
-            <li>Eat fresh and balanced meals with natural herbs.</li>
-            <li>Stay active with prenatal yoga and light walks.</li>
-            <li>Hydrate well — 8+ glasses of water daily.</li>
-            <li>Rest when needed — listen to your body.</li>
-            <li>Practice calm breathing & positive mindset.</li>
-        </ul>
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="lead">Consultations, structured programs and workshops designed to support fertility and postpartum wellbeing.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Fertility Consultations</h3>
+            <p>Personal assessment, herbal prescriptions, personalized diet and lifestyle plan.</p>
+            <div class="card-foot">
+              <span class="muted">Online / Offline</span>
+              <a href="#contact" class="btn btn-small">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>21-Day Fertility Program</h3>
+            <p>Structured program focusing on hormone balance, detox & nourishment for conception.</p>
+            <div class="card-foot">
+              <span class="muted">21 days</span>
+              <a href="#contact" class="btn btn-small">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Postpartum Recovery</h3>
+            <p>Protocols for gentle recovery, lactation support and emotional wellbeing after childbirth.</p>
+            <div class="card-foot">
+              <span class="muted">Custom durations</span>
+              <a href="#contact" class="btn btn-small">Book Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- ✅ WHATSAPP CONTACT -->
-    <section class="contact-section" id="contact">
-        <h2>Contact Support</h2>
-        <p>You are never alone. We are here to help you anytime 💛</p>
-        <a class="whatsapp-btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">
-            Chat on WhatsApp 📩
-        </a>
+    <!-- BLOG -->
+    <section id="blog" class="section light">
+      <div class="container">
+        <h2>From the Journal</h2>
+        <p class="lead">Short practical posts on Ayurvedic diet, fertility myths, hormonal support and postpartum care.</p>
+
+        <div class="cards small-cards">
+          <article class="card">
+            <h4>Ayurvedic Foods for Hormonal Balance</h4>
+            <p>What to eat daily to support reproductive health.</p>
+          </article>
+          <article class="card">
+            <h4>Stress & Fertility: Small rituals</h4>
+            <p>Simple routines that reduce stress and support cycles.</p>
+          </article>
+          <article class="card">
+            <h4>Postpartum Nutrition Checklist</h4>
+            <p>Foods and routines to aid recovery and lactation.</p>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="btn btn-outline" href="#blog">See all posts</a>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Preg-Go-Veda | Created with 💖 for every mother</p>
-    </footer>
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2>Success Stories</h2>
+        <p class="lead">Anonymous patient journeys (problem → Ayurvedic approach → outcome).</p>
 
+        <div class="cards">
+          <article class="card">
+            <h4>Conceived naturally after 9 months</h4>
+            <p>Problem: Irregular cycles. Approach: personalized herbs, diet & stress reduction. Outcome: Natural conception.</p>
+          </article>
+          <article class="card">
+            <h4>Postpartum strength restored</h4>
+            <p>Problem: Low energy & lactation concerns. Approach: postpartum diet & therapies. Outcome: improved energy and breastfeeding.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP / RESOURCES -->
+    <section id="shop" class="section light">
+      <div class="container">
+        <h2>Resources & Guides</h2>
+        <p class="lead">Free guides and downloadable resources (we’ll add paid ebooks here later).</p>
+
+        <div class="split">
+          <div>
+            <h3>Free Beginner's Guide</h3>
+            <p>Sign up to get a short, practical PDF on preconception routines.</p>
+            <form id="lead-form" class="lead-form" onsubmit="event.preventDefault(); alert('Thanks — we will send the guide.');">
+              <input type="email" placeholder="Email address" required aria-label="Email address">
+              <button class="btn btn-primary">Get the Guide</button>
+            </form>
+          </div>
+          <div>
+            <h3>Coming soon</h3>
+            <p>Paid ebooks, fertility packs & trusted affiliate products.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Book Appointment</h2>
+        <p class="lead">Message us on WhatsApp or email to schedule a consultation. Calendly embed can be added later.</p>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn btn-outline" href="mailto:hello@preggoveda.com">Email Us</a>
+        </div>
+
+        <p class="small-note">We can add a Calendly embed here or a booking form in the next iteration.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Preg Go Veda</strong>
+          <p class="muted">Ayurvedic Fertility & Wellness</p>
+        </div>
+
+        <div>
+          <strong>Contact</strong>
+          <p class="muted">WhatsApp: +91 XXXXXXXXXX<br>Email: hello@preggoveda.com</p>
+        </div>
+
+        <div>
+          <strong>Quick Links</strong>
+          <p class="muted"><a href="#services">Services</a> · <a href="#blog">Blog</a> · <a href="#contact">Book</a></p>
+        </div>
+      </div>
+
+      <p class="copyright">© <span id="year"></span> Preg Go Veda — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    navToggle && navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      if (mobileMenu) {
+        mobileMenu.style.display = expanded ? 'none' : 'block';
+        mobileMenu.setAttribute('aria-hidden', String(expanded));
+      }
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // close mobile menu
+          if (mobileMenu && window.innerWidth < 900) {
+            mobileMenu.style.display = 'none';
+            navToggle.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>
-
