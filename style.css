@@ -43,6 +43,14 @@ body {
     font-weight: 700;
     color: #ff6f91;
 }
+.leaf-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2e6b4e;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 
 .nav-links {
     list-style: none;
@@ -155,4 +163,5 @@ footer {
     padding: 18px;
     color: #fff;
 }
+
 
