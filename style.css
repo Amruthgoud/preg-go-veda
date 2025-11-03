@@ -42,26 +42,31 @@ body {
   font-weight: 700;
 }
 
-.nav-links {
+..nav-links {
   display: flex;
-  gap: 25px;
-  list-style: none;
+  gap: 32px; /* wider for balanced spacing */
+  align-items: center;
+  justify-content: flex-end;
 }
+
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
   font-weight: 500;
+  color: #222;
+  padding: 6px 0;
 }
 
-.nav-links .cta {
-  background: #B30606;
-  color: #fff !important;
-  padding: 8px 14px;
+.nav-links a.cta {
+  background: #c22a2a;
+  color: #fff;
+  padding: 10px 18px;
   border-radius: 6px;
 }
 
-/* HERO */
+.nav-links a.cta:hover {
+  background: #a02222;
+}/* HERO */
 .hero {
   height: 95vh;
   position: relative;
@@ -156,3 +161,4 @@ h2 {
   .nav-links { display: none; }
   .hero-title { font-size: 32px; }
 }
+
