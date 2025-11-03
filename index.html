@@ -1,41 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preg Go Veda — Natural Fertility & Ayurveda</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ✅ Navigation -->
-  <nav class="nav">
-    <div class="nav-inner">
-      <div class="brand">
-        <div class="logo-mark">🌿</div>
-        <div class="brand-text">
-          <div class="brand-name">Preg Go Veda</div>
-          <div class="brand-sub">Ayurvedic Fertility & Wellness</div>
-        </div>
+<nav class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <div class="logo-mark">🌿</div>
+      <div class="brand-text">
+        <div class="brand-name">Preg Go Veda</div>
+        <div class="brand-sub">Ayurvedic Fertility & Wellness</div>
       </div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a class="cta" href="#contact">Book Consultation</a></li>
-      </ul>
     </div>
-  </nav>
 
-  <!-- ✅ Hero Section -->
-  <header class="hero">
-    <img src="hero.jpg" class="hero-bg">
-    <div class="hero-overlay"></div>
-    
-    <div class="hero-content">
-      <h1 class="hero-title">Nurturing Fertility, Naturally</h1>
-      <p class="hero-sub">Ayurveda + Science for conscious conception</p>
-      <a class="btn primary" href="#contact">Book Consultation</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a class="cta small" href="#contact">Book Consultation</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+  <img src="hero.jpg" alt="Fertility Ayurveda" class="hero-bg">
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <h1 class="hero-title">Nurturing Fertility, Naturally</h1>
+    <p class="hero-sub">Integrating Ayurveda & modern science for conscious conception</p>
+    <a class="btn primary" href="#contact">Book Consultation</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container">
+    <h2>Meet Dr. Rathna</h2>
+    <p>Certified Ayurvedic Doctor specializing in Fertility, Menstrual Health,
+       Pregnancy & Postpartum care. Our mission is to help couples achieve natural
+       conception through authentic Ayurveda.</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Fertility Consultations</h3>
+        <p>Personalized Ayurvedic plans focusing on reproductive health.</p>
+      </article>
+      <article class="card">
+        <h3>21-Day Fertility Program</h3>
+        <p>Holistic approach with herbs, diet & lifestyle guidance.</p>
+      </article>
+      <article class="card">
+        <h3>Postpartum Healing</h3>
+        <p>Restoring strength, lactation support & emotional wellness.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="section blog">
+  <div class="container">
+    <h2>Educational Articles</h2>
+    <p>Coming soon — Learn Ayurveda based fertility guidance</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section testimonials">
+  <div class="container">
+    <h2>Success Stories</h2>
+    <p>Real journeys of natural conception (To be added soon)</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2>Book Appointment</h2>
+    <p>Message us to schedule your consultation.</p>
+    <a class="btn primary" target="_blank" href="https://wa.me/91XXXXXXXXXX">WhatsApp Us</a>
+    <p class="small-note">Email: hello@preggoveda.com</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Preg Go Veda — Ayurvedic Wellness Clinic</p>
+</footer>
+
+<script>
+  document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
